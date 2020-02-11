@@ -8,6 +8,18 @@ namespace RobotsvsDinosFinal
 {
     class Weapon
     {
+        //meber methods ( Has A)
+        public string name;
+        public int hitPower;
 
+
+
+        // constructor (spawner)
+        public Weapon()
+        {
+            name = "";
+            int damage = hitPower;
+        }
+        return damage;
     }
 }

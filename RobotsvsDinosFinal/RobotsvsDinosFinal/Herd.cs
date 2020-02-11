@@ -8,5 +8,18 @@ namespace RobotsvsDinosFinal
 {
     class Herd
     {
+
+        public List<Dinosaur> dinosaurs;
+        public Herd()
+        {
+            Dinosaur stegosaurus = new Dinosaur("Steg");
+            Dinosaur ankylosaurus = new Dinosaur("Bebop");
+            Dinosaur triceratops = new Dinosaur("Rocksteady");
+            dinosaurs = new List<Dinosaur>();
+            dinosaurs.Add(stegosaurus);
+            dinosaurs.Add(ankylosaurus);
+            dinosaurs.Add(triceratops);
+        }
+
     }
 }
